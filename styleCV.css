@@ -1,0 +1,35 @@
+#firstRowHomePage{
+    min-height: 100vh;
+    background-image: url("/img/wallCrane3.jpeg");
+    background-position: center;
+}
+#text-presentation{
+    background-color: #000000a4;
+    margin-top: -5%;
+}
+.description{
+    max-width: 600px;
+    margin: 10px auto;  
+}
+.big-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn{
+    border-radius: 16px;
+}
+#mouseBtn i{
+    color:white;
+    font-size: 40px;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 40px;
+    left: 49%;
+    transition: 0.5s;
+    
+}
+#mouseBtn  i:hover{
+    transform: scale(2);
+    cursor: pointer;
+    color: rgb(69, 186, 219);
+}
