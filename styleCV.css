@@ -1,10 +1,13 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
 #firstRowHomePage{
     min-height: 100vh;
     background-image: url("/img/wallCrane3.jpeg");
     background-position: center;
 }
 #text-presentation{
-    background-color: #000000a4;
+    background-color: #00000096;
     margin-top: -5%;
 }
 .description{
@@ -32,4 +35,14 @@
     transform: scale(2);
     cursor: pointer;
     color: rgb(69, 186, 219);
+}
+#text-presentation-exp{
+    background-color: #00000096;
+    margin-top: -20%;
+}
+.experiences{
+    margin-bottom: 50px;
+}
+.text-experience{
+    margin-top: 300px;
 }
