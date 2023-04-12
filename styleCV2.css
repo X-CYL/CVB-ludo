@@ -3,7 +3,7 @@ body{
 }
 #firstRowHomePage{
     min-height: 100vh;
-    background-image: url("/img/wallCrane3.jpeg");
+    background-image: url("/img/milkiway.jpeg");
     background-position: center;
 }
 #text-presentation{
@@ -49,4 +49,7 @@ body{
 .size-img-card{
     width: 70px;
     height:auto;
+}
+.text-footer{
+    margin-top: 400px;
 }
