@@ -46,7 +46,16 @@ body{
 .text-experience{
     margin-top: 150px;
 }
+
 .size-img-card{
     width: 70px;
     height:auto;
+}
+.active{
+    background-color:rgba(32, 172, 247, 0.322);
+    border-radius: 15px;
+}
+.nav-link:hover{
+    background-color: rgba(0, 109, 128, 0.699);
+    border-radius: 15px;
 }
