@@ -21,20 +21,20 @@ body{
 .btn{
     border-radius: 16px;
 }
+
 #mouseBtn i{
+    margin-top: 70px;
+    display:inline-block;
     color:white;
-    font-size: 40px;
-    transform: rotate(180deg);
-    position: absolute;
-    bottom: 40px;
-    left: 49%;
+    font-size: 50px;
+    transform: rotate(180deg); 
     transition: 0.5s;
-    
 }
 #mouseBtn  i:hover{
     transform: scale(2);
     cursor: pointer;
     color: rgb(69, 186, 219);
+    
 }
 #text-presentation-exp{
     background-color: #00000096;
@@ -43,6 +43,7 @@ body{
 .experiences{
     margin-bottom: 50px;
 }
+
 .text-experience{
     margin-top: 150px;
 }
